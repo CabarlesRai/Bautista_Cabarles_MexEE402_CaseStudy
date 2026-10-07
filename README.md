@@ -56,7 +56,7 @@ Reflection
 >### Chapter 6
 
 <p align="justify">
-Reflection
+From this chapter, I understood that outliers are unusual data values that are very different from most of the other data, and they can have a noticeable effect on the results of an analysis. I understood how the Z-score and IQR methods can be used to identify these unusual values and that not every outlier should automatically be removed because it may still contain useful information. It showed how one extreme value, such as 100 when most of the values are only around 10–20, can change the overall data and possibly lead to a different interpretation. This made me see why it is important to look at unusual values carefully before deciding what to do with them.
 </p>
 
 ---
@@ -65,7 +65,7 @@ Reflection
 >### Chapter 7
 
 <p align="justify">
-Reflection
+This chapter helped me understand why choosing the right features is important when working with data. I understood that not every piece of information in a dataset is useful for making predictions, and keeping unnecessary features can affect the performance of a model. The discussion about correlation also helped me understand how variables can have relationships with each other and why these relationships can be considered when selecting features. What stood out to me was that there are different ways to decide which features should be kept, such as filter, wrapper, and embedded methods. It made me realize that feature selection is not simply about removing columns, but about choosing the information that is actually useful for the model.
 </p>
 
 ---
@@ -74,7 +74,7 @@ Reflection
 >### Chapter 8
 
 <p align="justify">
-Reflection
+Going through this chapter made me understand that preparing data before using it in a machine learning model involves several steps that need to be done in the right order. I understood how a preprocessing pipeline can put tasks such as filling in missing values and scaling data together instead of doing each step separately. This also showed me how having an organized process can make the preparation of data more consistent and help avoid mistakes. What I found interesting was that the same pipeline can be reused when working with new data, so the new data can go through the same preparation steps as the original data. I found this useful because it makes the whole process easier to manage and more consistent.
 </p>
 
 ---
@@ -83,7 +83,7 @@ Reflection
 >### Chapter 9
 
 <p align="justify">
-Reflection
+For this last chapter, it helped me understand how the different data preprocessing steps can be applied to an actual dataset instead of just looking at them individually. I learned that data needs to be cleaned, transformed, and organized before it can be properly used for analysis or machine learning. The Titanic example made it easier to see how different types of data, such as numerical and categorical values, can require different ways of handling them. What I found interesting was turning ages into different life stages because it showed me that raw numerical data can be grouped into categories that make it easier to interpret. I also understood that preprocessing is not always just a one-time step, since the results can still be checked and adjusted when something needs to be improved. Lastly, visual representation of the data gave a clearer comparison than those that are simply tabulated. 
 </p>
 
 
