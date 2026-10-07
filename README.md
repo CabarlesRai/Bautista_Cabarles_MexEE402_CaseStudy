@@ -30,8 +30,9 @@ you and what surprised you. Not what the library does, but what you understood.
 
 ## Errors we found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+<p align="justify">
+<b>We did not find any errors</b> in the original notebooks while checking and running the codes. We copied the codes from the notebooks and ran them in Google Colab to see if they would work properly. After executing each code, the outputs and results were consistent with the reference provided in the notebooks. We also checked the different steps to make sure that the codes were producing the expected results. Since everything ran successfully and matched the reference results, we did not find any mistakes that needed to be corrected or changed.
+</p>
 
 ## Note on AI tools
 
