@@ -9,11 +9,11 @@ Batangas State University, Alangilan Campus
 | Name | Student Number | Section |
 |---|---|---|
 | Bautista, Dean Mark | |MEXE - 4101 |
-| Cabarles, Raiza | |MEXE - 4101|
+| Cabarles, Raiza |23-0328 |MEXE - 4101|
 
 ## Notebook links
 
-| Chapter | Member 1 | Member 2 |
+| Chapter | Bautista | Cabarles |
 |---|---|---|
 | Ch1_2_3 | [link]() | [link](https://colab.research.google.com/drive/1MXKMnu7U2UvbmXNReL0AQjupQ0p0UE4W?usp=drive_link) |
 | Ch4 | [link]() | [link](https://colab.research.google.com/drive/1BPajlaUcjI7kkmZ27e96ekNp3ySjxa3X?usp=drive_link) |
