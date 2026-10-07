@@ -29,7 +29,8 @@ Batangas State University, Alangilan Campus
 >### Chapter 1, 2 and 3
 
 <p align="justify">
-Reflection
+Chapter 1 taught me about the core of data preprocessing in which the raw data undergoes  preparatory stages before Machine Learning. I learned the different common issues of raw data which have corresponding preprocessing techniques for handling them. Most importantly, this part showed me why it's important for the raw data to undergo this process. Since a model depends on data it learns from an organized, cleaned and simplified dataset will result in improved data quality as well as higher accuracy. For Chapter 2, I was able to explore the different features of the dataset using code commands, where I observed the difference of the categorical and numerical columns. It also allowed me to view the statistical summary and the brief overview of the dataset which made me realize that exploring and understanding the data first is essential for spotting possible problems. On the other hand, Chapter 3 taught me a different approach in cleaning the data from the datasets. I learned that I can locate columns with missing values and then decide how to treat them accordingly, such as imputation, deletion or prediction. Generally, Chapter 1 -3 taught me the different stages of data preprocessing from introducing why raw data needs to be prepared, to exploring the dataset, to handling missing values which is the foundation of Machine Learning.
+
 </p>
 
 ---
