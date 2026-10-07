@@ -36,8 +36,11 @@ you and what surprised you. Not what the library does, but what you understood.
 
 ## Note on AI tools
 
-Say whether you used an AI tool, and what for. This is not a penalty.
-Hiding it is.
+<p align="justify">
+An AI tool was used once while working on <b>Chapter 2</b>, specifically in <b>Step 3</b>. At that part, there was some difficulty understanding what the instruction meant by uploading the <b>CSV file into the Google Colab environment</b>. When the code <code>df = pd.read_csv('/content/vgsales.csv')</code> was first run, a <b>“File not found”</b> error appeared because the CSV file was not properly uploaded to the Colab environment. 
+  
+An AI tool was then used to understand how to upload the file correctly. With its guidance, the CSV file was successfully uploaded into Google Colab, and the code ran without the error. The AI tool was only used to understand and solve this specific technical problem, while the rest of the work was completed by following the provided notebook instructions.
+</p>
 
 ## References
 
