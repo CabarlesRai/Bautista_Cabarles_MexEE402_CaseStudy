@@ -30,17 +30,20 @@ you and what surprised you. Not what the library does, but what you understood.
 
 ## Errors we found
 
+<blockquote>
 <p align="justify">
 <b>We did not find any errors</b> in the original notebooks while checking and running the codes. We copied the codes from the notebooks and ran them in Google Colab to see if they would work properly. After executing each code, the outputs and results were consistent with the reference provided in the notebooks. We also checked the different steps to make sure that the codes were producing the expected results. Since everything ran successfully and matched the reference results, we did not find any mistakes that needed to be corrected or changed.
 </p>
+</blockquote>
 
 ## Note on AI tools
-
+<blockquote>
 <p align="justify">
 An AI tool was used once while working on <b>Chapter 2</b>, specifically in <b>Step 3</b>. At that part, there was some difficulty understanding what the instruction meant by uploading the <b>CSV file into the Google Colab environment</b>. When the code <code>df = pd.read_csv('/content/vgsales.csv')</code> was first run, a <b>“File not found”</b> error appeared because the CSV file was not properly uploaded to the Colab environment. 
   
 An AI tool was then used to understand how to upload the file correctly. With its guidance, the CSV file was successfully uploaded into Google Colab, and the code ran without the error. The AI tool was only used to understand and solve this specific technical problem, while the rest of the work was completed by following the provided notebook instructions.
 </p>
+</blockquote>
 
 ## References
 
