@@ -23,10 +23,69 @@ Batangas State University, Alangilan Campus
 | Ch8 | [link]() | [link]() |
 | Ch9 | [link]() | [link]() |
 
+
 ## What we learned
 
-One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
-you and what surprised you. Not what the library does, but what you understood.
+>### Chapter 1, 2 and 3
+
+<p align="justify">
+Reflection
+</p>
+
+---
+
+
+>### Chapter 4
+
+<p align="justify">
+Reflection
+</p>
+
+---
+
+
+>### Chapter 5
+
+<p align="justify">
+Reflection
+</p>
+
+---
+
+
+>### Chapter 6
+
+<p align="justify">
+Reflection
+</p>
+
+---
+
+
+>### Chapter 7
+
+<p align="justify">
+Reflection
+</p>
+
+---
+
+
+>### Chapter 8
+
+<p align="justify">
+Reflection
+</p>
+
+---
+
+
+>### Chapter 9
+
+<p align="justify">
+Reflection
+</p>
+
 
 ## Errors we found
 
