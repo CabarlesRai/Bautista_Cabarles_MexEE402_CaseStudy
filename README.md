@@ -44,6 +44,8 @@ Content Studio. (2026, January 20). *What is data preprocessing for machine lear
 
 Dchoyle. (2026, September 27). *Data science notes: 4. What is an outlier?* Hoyle Analytics. https://hoyleanalytics.org/2026/03/09/data-science-notes-4-what-is-an-outlier/
 
+FERRIS, J. (2025). How to correctly use RFECV for feature selection in a Scikit-learn pipeline with a simple decision tree? Kaggle.[Kaggle discussion page](https://www.kaggle.com/discussions/questions-and-answers/573340)
+
 Doherty, A. (2022, August 5). *Data scaling techniques: What are they and why are they important?* Hark. https://harksys.com/blog/what-is-data-scaling-and-why-is-it-important/
 
 GeeksforGeeks. (2026, June 11). *Feature selection techniques in machine learning*. https://www.geeksforgeeks.org/machine-learning/feature-selection-techniques-in-machine-learning/
