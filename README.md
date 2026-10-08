@@ -109,11 +109,10 @@ An AI tool was then used to understand how to upload the file correctly. With it
 
 FERRIS, J. (2025). How to correctly use RFECV for feature selection in a Scikit-learn pipeline with a simple decision tree? Kaggle.[Kaggle discussion page](https://www.kaggle.com/discussions/questions-and-answers/573340)
 
+GeeksforGeeks (2025) Using ColumnTransformer in SciKitLearn for data preprocessing. https://www.geeksforgeeks.org/machine-learning/using-columntransformer-in-scikit-learn-for-data-preprocessing/#what-is-columntransformer.
+
+GeeksforGeeks. (2023, January 21). Recursive feature elimination with cross-validation in scikit learn. https://www.geeksforgeeks.org/machine-learning/recursive-feature-elimination-with-cross-validation-in-scikit-learn/
 Jesse, I. (2025, March). *Exploring data frames*. Medium. https://medium.com/@i-jesse/exploring-data-frames-f10218a5d3bd
 
 StandardScaler, MinMaxScaler, and RobustScaler: A comprehensive guide to feature scaling in machine learning (2026). https://www.codestudy.net/blog/standardscaler-minmaxscaler-and-robustscaler-techniques-ml/.
-
-GeeksforGeeks (2025) Using ColumnTransformer in SciKitLearn for data preprocessing. https://www.geeksforgeeks.org/machine-learning/using-columntransformer-in-scikit-learn-for-data-preprocessing/#what-is-columntransformer.
-
-
 
