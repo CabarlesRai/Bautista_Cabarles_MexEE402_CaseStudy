@@ -39,7 +39,7 @@ Chapter 1 taught me about the core of data preprocessing in which the raw data u
 >### Chapter 4
 
 <p align="justify">
-Reflection
+For this chapter, I learned that feature engineering is transforming raw data into useful features wherein we combine variables to assess their relationships and patterns. It introduced me to new insights about “Binning”, which converts numerical data into categorical data, “Interaction Feature”, which combines two variables to make a new feature, and “Polynomial Feature” for non-linear relationships. I also learned about categorical variable encoding, specifically the application distinction between One-hot encoding (assigns 1 = true, 0 = false) and ordinal encoding (data with natural order that prioritize ranking). This chapter allowed me to examine and assess the dataset in each variable for its relationship, in order for me to uncover patterns as it enables me to observe how one variable affects the other. Overall, this discussion taught me the significance of simplifying our dataset categorically and numerically for useful features which needed to be prioritized. 
 </p>
 
 ---
