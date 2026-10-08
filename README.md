@@ -111,4 +111,9 @@ FERRIS, J. (2025). How to correctly use RFECV for feature selection in a Scikit-
 
 Jesse, I. (2025, March). *Exploring data frames*. Medium. https://medium.com/@i-jesse/exploring-data-frames-f10218a5d3bd
 
-McKinney, W. (2021). *Python for data analysis* (3rd ed.). O'Reilly Media.
+StandardScaler, MinMaxScaler, and RobustScaler: A comprehensive guide to feature scaling in machine learning (2026). https://www.codestudy.net/blog/standardscaler-minmaxscaler-and-robustscaler-techniques-ml/.
+
+GeeksforGeeks (2025) Using ColumnTransformer in SciKitLearn for data preprocessing. https://www.geeksforgeeks.org/machine-learning/using-columntransformer-in-scikit-learn-for-data-preprocessing/#what-is-columntransformer.
+
+
+
