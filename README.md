@@ -48,7 +48,7 @@ For this chapter, I learned that feature engineering is transforming raw data in
 >### Chapter 5
 
 <p align="justify">
-Reflection
+In this section, it discusses the function of Data Scaling for standardizing the scale of the dataset in a comparable range for fair comparison. It highlighted the function of StandardScaler and MinMaxScaler which implies that StandardScaler reduces the mean to zero while scaling the unit variance to 1. Alternatively, MinMaxScaler is used to adjust the scale [0 to 1] boundary . This chapter taught me on how to handle data with large discrepancies depending on what the model needed. The most notable I learned was how these two approaches (normalization, standardization) rescales the given dataset into a narrowed value in comparison to the raw dataset. I also realized that data scaling is not always necessary and depends on the context of the algorithm in accordance with the essential features of the model.
 </p>
 
 ---
