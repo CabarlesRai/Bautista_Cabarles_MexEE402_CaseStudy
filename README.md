@@ -107,6 +107,10 @@ An AI tool was then used to understand how to upload the file correctly. With it
 
 ## References
 
+McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly. 
+
+VanderPlas, J. Python Data Science Handbook.
+
 FERRIS, J. (2025). How to correctly use RFECV for feature selection in a Scikit-learn pipeline with a simple decision tree? Kaggle.[Kaggle discussion page](https://www.kaggle.com/discussions/questions-and-answers/573340)
 
 GeeksforGeeks (2025) Using ColumnTransformer in SciKitLearn for data preprocessing. https://www.geeksforgeeks.org/machine-learning/using-columntransformer-in-scikit-learn-for-data-preprocessing/#what-is-columntransformer.
