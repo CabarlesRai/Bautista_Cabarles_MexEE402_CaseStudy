@@ -57,7 +57,7 @@ In this section, it discusses the function of Data Scaling for standardizing the
 >### Chapter 6
 
 <p align="justify">
-From this chapter, I understood that outliers are unusual data values that are very different from most of the other data, and they can have a noticeable effect on the results of an analysis. I understood how the Z-score and IQR methods can be used to identify these unusual values and that not every outlier should automatically be removed because it may still contain useful information. It showed how one extreme value, such as 100 when most of the values are only around 10–20, can change the overall data and possibly lead to a different interpretation. This made me see why it is important to look at unusual values carefully before deciding what to do with them.
+From this chapter, we understood that outliers are unusual data values that are very different from most of the other data, and they can have a noticeable effect on the results of an analysis. We learned how the Z-score and IQR methods can be used to identify these unusual values and determine whether a value is considered an outlier. We also learned that not every outlier should automatically be removed because it may contain useful or important information about the data. For example, one extreme value, such as 100 when most of the values are only around 10–20, can greatly change the overall results and may even lead to a different interpretation of the data. This helped us understand why it is important to examine unusual values carefully and consider the reason behind them before deciding whether they should be removed or kept. This notebook showed us that properly handling outliers can help make data analysis more accurate and meaningful.
 </p>
 
 ---
@@ -66,7 +66,8 @@ From this chapter, I understood that outliers are unusual data values that are v
 >### Chapter 7
 
 <p align="justify">
-This chapter helped me understand why choosing the right features is important when working with data. I understood that not every piece of information in a dataset is useful for making predictions, and keeping unnecessary features can affect the performance of a model. The discussion about correlation also helped me understand how variables can have relationships with each other and why these relationships can be considered when selecting features. What stood out to me was that there are different ways to decide which features should be kept, such as filter, wrapper, and embedded methods. It made me realize that feature selection is not simply about removing columns, but about choosing the information that is actually useful for the model.
+For chapter 7, it made us realize why choosing the right features is important when working with data. We learned that not every piece of information in a dataset is useful for making predictions, and keeping unnecessary features can affect the performance and accuracy of a model. The discussion about correlation also helped us understand how variables can have relationships with each other and why these relationships can be considered when selecting features. What stood out to us was that there are different ways to decide which features should be kept, such as filter, wrapper, and embedded methods. Each method has its own way of identifying the features that are most useful for the model. This made us realize that feature selection is not simply about removing unnecessary columns, but about carefully choosing the information that can contribute to better results. This taught us that proper feature selection can make a model more efficient, easier to understand, and potentially more accurate.
+
 </p>
 
 ---
@@ -75,7 +76,7 @@ This chapter helped me understand why choosing the right features is important w
 >### Chapter 8
 
 <p align="justify">
-Going through this chapter made me understand that preparing data before using it in a machine learning model involves several steps that need to be done in the right order. I understood how a preprocessing pipeline can put tasks such as filling in missing values and scaling data together instead of doing each step separately. This also showed me how having an organized process can make the preparation of data more consistent and help avoid mistakes. What I found interesting was that the same pipeline can be reused when working with new data, so the new data can go through the same preparation steps as the original data. I found this useful because it makes the whole process easier to manage and more consistent.
+Going through this chapter made us understand that preparing data before using it in a machine learning model involves several steps that need to be done in the right order. We learned how a preprocessing pipeline can put tasks such as filling in missing values, scaling data, and preparing features together instead of doing each step separately. This showed us how having an organized process can make data preparation more consistent and help avoid mistakes that could affect the results of a model. We also learned that the same pipeline can be reused when working with new data, allowing the new data to go through the same preparation steps as the original data. This is useful because it saves time, keeps the process organized, and makes sure that the data is prepared in a similar way each time. Through this chapter, we understood that proper data preprocessing is an important part of building a reliable machine learning model.
 </p>
 
 ---
@@ -84,9 +85,8 @@ Going through this chapter made me understand that preparing data before using i
 >### Chapter 9
 
 <p align="justify">
-For this last chapter, it helped me understand how the different data preprocessing steps can be applied to an actual dataset instead of just looking at them individually. I learned that data needs to be cleaned, transformed, and organized before it can be properly used for analysis or machine learning. The Titanic example made it easier to see how different types of data, such as numerical and categorical values, can require different ways of handling them. What I found interesting was turning ages into different life stages because it showed me that raw numerical data can be grouped into categories that make it easier to interpret. I also understood that preprocessing is not always just a one-time step, since the results can still be checked and adjusted when something needs to be improved. Lastly, visual representation of the data gave a clearer comparison than those that are simply tabulated. 
+For this last chapter, it helped us understand how the different data preprocessing steps can be applied to an actual dataset instead of just looking at them individually. We learned that data needs to be cleaned, transformed, and organized before it can be properly used for analysis or machine learning. The Titanic example made it easier for us to see how different types of data, such as numerical and categorical values, can require different ways of handling them. We also learned that raw data can be transformed into a format that is easier to understand and work with. For example, turning ages into different life stages showed us how numerical data can be grouped into categories that make it easier to interpret and analyze. We also understood that preprocessing is not always a one-time step because the results can still be checked and adjusted when something needs to be improved. Lastly, using visual representations of the data helped us see comparisons and patterns more clearly than looking at values that are simply presented in a table.
 </p>
-
 
 ## Errors we found
 
