@@ -90,6 +90,8 @@ For this last chapter, it helped us understand how the different data preprocess
 
 ## Errors we found
 
+## Errors we found
+
 >### Error: Chapter 6
 
 ```python
@@ -104,6 +106,16 @@ Outliers:  []
 The code has an error because it uses a z-score threshold of 3, which is too high for a dataset of only 8 values. With so few values, the largest possible z-score is about 2.65, so no value can ever pass the <code>&gt; 3</code> test. The outlier <code>100</code> has a z-score of 2.615, which falls below the threshold, so <code>outliers</code> comes back as an empty list even though 100 is clearly an outlier.
 </p>
 
+### Correct Code
+
+```python
+# find outliers
+outliers = data[np.abs(z_scores) > 2]
+print("Outliers: ", outliers)
+
+Outliers:  [100]
+```
+
 >### Error: Chapter 7
 
 ```python
@@ -111,6 +123,19 @@ The code has an error because it uses a z-score threshold of 3, which is too hig
 selector = RFECV(estimator, step=1, cv=5)
 print(selector)
 ```
+
+<p align="justify">
+<code>cv=5</code> is an error only because the dataset is too small. RFECV splits <code>df_2</code> into 5 folds and refits the SVR on every fold at each feature-elimination step, so with few rows each fold has too little data to train and score on reliably, and the run fails or gives unstable results. Using <code>cv=3</code> makes the folds bigger, which fixes it.
+</p>
+
+### Correct Code
+
+```python
+# create the RFE object and compute a cross-validated score.
+selector = RFECV(estimator, step=1, cv=3)
+print(selector)
+```
+
 >### Error: Chapter 9
 
 ```python
@@ -126,9 +151,18 @@ plt.show()
 <p align="justify">
 The "before" plot is wrong because <code>data['Age']</code> has already been discretized earlier in the notebook, so the histogram's x-axis shows the categories Adult, Elderly and Child instead of numeric ages. That means it plots the same discretized data as the "after" plot, which makes the comparison meaningless. The fix is to plot column 0 of <code>titanic_preprocessed</code>, which still holds the raw ages, as "Before discretization".
 </p>
-<p align="justify">
-<code>cv=5</code> is an error only because the dataset is too small. RFECV splits <code>df_2</code> into 5 folds and refits the SVR on every fold at each feature-elimination step, so with few rows each fold has too little data to train and score on reliably, and the run fails or gives unstable results. Using <code>cv=3</code> makes the folds bigger, which fixes it.
-</p>
+
+### Correct Code
+
+```python
+# Before discretization
+plt.hist(titanic_preprocessed[:,0], alpha=0.5, label='Before discretization')
+
+# After discretization
+plt.hist(data['Age'].dropna(), alpha=0.5, label='After discretization')
+plt.legend()
+plt.show()
+```
 
 
 ## Note on AI tools
