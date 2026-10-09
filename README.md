@@ -90,18 +90,53 @@ For this last chapter, it helped us understand how the different data preprocess
 
 ## Errors we found
 
-<blockquote>
+>### Error: Chapter 6
+
+```python
+# find outliers
+outliers = data[np.abs(z_scores) > 3]
+print("Outliers: ", outliers)
+
+Outliers:  []
+```
+
 <p align="justify">
-<b>We did not find any errors</b> in the original notebooks while checking and running the codes. We copied the codes from the notebooks and ran them in Google Colab to see if they would work properly. After executing each code, the outputs and results were consistent with the reference provided in the notebooks. We also checked the different steps to make sure that the codes were producing the expected results. Since everything ran successfully and matched the reference results, we did not find any mistakes that needed to be corrected or changed.
+The code has an error because it uses a z-score threshold of 3, which is too high for a dataset of only 8 values. With so few values, the largest possible z-score is about 2.65, so no value can ever pass the <code>&gt; 3</code> test. The outlier <code>100</code> has a z-score of 2.615, which falls below the threshold, so <code>outliers</code> comes back as an empty list even though 100 is clearly an outlier.
 </p>
-</blockquote>
+
+>### Error: Chapter 7
+
+```python
+# create the RFE object and compute a cross-validated score.
+selector = RFECV(estimator, step=1, cv=5)
+print(selector)
+```
+>### Error: Chapter 9
+
+```python
+# Before discretization
+plt.hist(data['Age'].dropna(), alpha=0.5, label='Before discretization')
+
+# After discretization
+plt.hist(titanic_preprocessed[:,2], alpha=0.5, label='After discretization')
+plt.legend()
+plt.show()
+```
+
+<p align="justify">
+The "before" plot is wrong because <code>data['Age']</code> has already been discretized earlier in the notebook, so the histogram's x-axis shows the categories Adult, Elderly and Child instead of numeric ages. That means it plots the same discretized data as the "after" plot, which makes the comparison meaningless. The fix is to plot column 0 of <code>titanic_preprocessed</code>, which still holds the raw ages, as "Before discretization".
+</p>
+<p align="justify">
+<code>cv=5</code> is an error only because the dataset is too small. RFECV splits <code>df_2</code> into 5 folds and refits the SVR on every fold at each feature-elimination step, so with few rows each fold has too little data to train and score on reliably, and the run fails or gives unstable results. Using <code>cv=3</code> makes the folds bigger, which fixes it.
+</p>
+
 
 ## Note on AI tools
 <blockquote>
 <p align="justify">
-An AI tool was used once while working on <b>Chapter 2</b>, specifically in <b>Step 3</b>. At that part, there was some difficulty understanding what the instruction meant by uploading the <b>CSV file into the Google Colab environment</b>. When the code <code>df = pd.read_csv('/content/vgsales.csv')</code> was first run, a <b>“File not found”</b> error appeared because the CSV file was not properly uploaded to the Colab environment. 
-  
-An AI tool was then used to understand how to upload the file correctly. With its guidance, the CSV file was successfully uploaded into Google Colab, and the code ran without the error. The AI tool was only used to understand and solve this specific technical problem, while the rest of the work was completed by following the provided notebook instructions.
+An AI tool was used in two parts of this work. The first was in Chapter 2, specifically in Step 3. At that part, there was some difficulty understanding what the instruction meant by uploading the CSV file into the Google Colab environment. When the code `df = pd.read_csv('/content/vgsales.csv')` was first run, a "File not found" error appeared because the CSV file was not properly uploaded to the Colab environment. An AI tool was then used to understand how to upload the file correctly. With its guidance, the CSV file was successfully uploaded into Google Colab, and the code ran without the error.
+
+The AI tool was also used to correct the error codes found in the notebook. It helped explain why each error occurred and how to fix it, and these corrections are documented in the "Errors we found" section. The AI tool was only used for these specific technical problems, while the rest of the work was completed by following the provided notebook instructions.
 </p>
 </blockquote>
 
