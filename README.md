@@ -88,7 +88,6 @@ Going through this chapter made us understand that preparing data before using i
 For this last chapter, it helped us understand how the different data preprocessing steps can be applied to an actual dataset instead of just looking at them individually. We learned that data needs to be cleaned, transformed, and organized before it can be properly used for analysis or machine learning. The Titanic example made it easier for us to see how different types of data, such as numerical and categorical values, can require different ways of handling them. We also learned that raw data can be transformed into a format that is easier to understand and work with. For example, turning ages into different life stages showed us how numerical data can be grouped into categories that make it easier to interpret and analyze. We also understood that preprocessing is not always a one-time step because the results can still be checked and adjusted when something needs to be improved. Lastly, using visual representations of the data helped us see comparisons and patterns more clearly than looking at values that are simply presented in a table.
 </p>
 
-## Errors we found
 
 ## Errors we found
 
